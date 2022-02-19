@@ -13,55 +13,54 @@
 
 }
 
-
-.mensagem-tela {
+.mensagem-tela{
+    background-color: rgb(218, 224, 224);
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-top: 2%;
-    background-color: rgb(218, 224, 224);
-    height: 50px;
+    min-height: 10px; 
+    display: flex;
+}
+
+.form2 {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.p1 {
+    color: rgb(4, 202, 53);
+    font-size: 15px;
 
 }
 
-.mensagem-editar {
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: rgb(218, 224, 224);
-    max-height: 30px;
-    max-width: 1000px;
-
-}
 
 .btn-deletar {
-    background-color: rgb(6, 30, 46);
+    background-color: rgb(97, 94, 94);
     color: white;
-    font-size: 20px;
-    margin-left: 2%;
-    
-}
-.botao-editar {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    font-size: 20px;
-    
-
+    font-size: 15px;
+    margin-left: 2%;  
 }
 
-.botao-enviar {
-    background-color: rgb(30, 87, 13);
+.btn-editar {
+    background-color: rgb(55, 147, 223);
     color: white;
-    font-size: 20px;
-   
+    font-size: 15px;
+    
+}
 
+.btn-enviar-edicao {
+    background-color: rgb(10, 9, 9);
+    color: white;
+    font-size: 15px;
+    margin-left: 2%; 
 }
 
 .section-btn {
     display:flex;
 }
 
-.mensagem {
+.mensagem-caixa {
     background-color: whitesmoke;
     height: 400px;
     overflow-y: scroll;
@@ -76,31 +75,28 @@
     padding: 10px;;    
 }
 
-form {
+.form1 {
     display: flex;
     width: 100%;
     height: 100%;
 }
-
 .texto {
     font-size:  18px;
     resize: none;
     position: relative;
     width: 80%;
 }
+
+.texto-edicao {
+    font-size:  15px;
+    width: 100%;
+    height: 100%;
+}
 .botao-enviar {
     margin-left: 2%;
     margin-right: 2%;
     color: white;
-    font-size: 1.5em;
+    font-size: 15px;
     background-color: rgb(192, 190, 161);
-    height: 25%;
-    
+    height: 25%;  
 }
-
- /* {
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 20px;
-} */
-
