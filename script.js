@@ -94,11 +94,9 @@ function enviarEdicao(elemento){
     //id da mensagem para ser editada
     const id = elemento.parentElement.parentElement.id;
     
-
     const fetchBody = {
         message: { 
-            content: textoEdicao.value,
-            author: "pirulito" //bug só está editando quando coloca author
+            content: textoEdicao
         }
     }
 
@@ -117,6 +115,5 @@ function enviarEdicao(elemento){
     
 
 }
-
 
 obterMensagemDaApi();
